@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Hi, I'm Vasavi</h2>
+            <h3>Frontend Developer</h3>
+            <p>A passionate web developer and designer. Explore my portfolio to learn more about my work and skills. I specialize in creating dynamic, user-friendly websites and applications that not only meet but exceed client expectations. My expertise includes responsive design, front-end development, and UI/UX design.</p>
+            <a href="#" class="read-more-btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Vasavi, a passionate web developer with a background in computer science. Currently, I am pursuing my B-tech degree in Computer Science from Vignan University. My journey in tech has been fueled by a deep interest in creating intuitive and impactful digital experiences.</p>
+            <p>I'm dedicated to continuous learning and staying updated with the latest technologies to bring innovative solutions to my projects. Here’s a bit more about my educational background:</p>
+            
+            <!-- Flex Container for Education and Skills -->
+            <div class="about-flex-container">
+                <!-- Education Section -->
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - 2025</div>
+                            <div class="timeline-content">
+                                <h4>B.Tech in Computer Science</h4>
+                                <p>Vignan University</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2019 - 2021</div>
+                            <div class="timeline-content">
+                                <h4>Intermediate in MPC</h4>
+                                <p>Sri Chaitanya Junior College</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2018 - 2019</div>
+                            <div class="timeline-content">
+                                <h4>SSC</h4>
+                                <p>Bhashyam Public School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                        <li>Programming in C & Python</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <article class="project">
+                <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-41576-6/MediaObjects/41598_2023_41576_Fig1_HTML.jpg" alt="Project 1">
+                <h3>Brain Tumor Detection</h3>
+                <p>A Brain Tumor Detection system used to detect brain tumor.</p>
+                <a href="#" class="view-project-btn">View Project</a>
+            </article>
+            <!-- Add more projects as needed -->
+        </div>
+        <div class="project-list">
+            <article class="project">
+                <img src="data:image/png;base64,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" alt="Project2">
+                <h3>School fund fair registration</h3>
+                <p>A project to collect the funds in the school throught the found fair registrations website.</p>
+                <a href="#" class="view-project-btn">View Project</a>
+            </article>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <ul class="social-media">
+            <li><a href="#" class="social-icon"><img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="#" class="social-icon"><img src="https://img.icons8.com/ios/50/000000/github.png" alt="GitHub"></a></li>
+            <li><a href="#" class="social-icon"><img src="https://img.icons8.com/ios/50/000000/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#" class="social-icon"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="Instagram"></a></li>
+        </ul>
+        <p>Email: <a href="mailto:vasavibilla@example.com">vasavibilla@example.com</a></p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Billa Vasavi. All rights reserved. | Designed by Vasavi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
